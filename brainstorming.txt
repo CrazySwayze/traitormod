@@ -16,21 +16,42 @@ Innocence System
   We could utilize the instant voting system for crew member Role Fouls if there is some way to specify a custom entry. Example: I kill bootman because I think he's a traitor but he's not, so he submits a vote to assign Swayze a role foul with the custom text "Swayze killed me while I was Innocent
 
   This system is designed to be simple, encourage communication, prevent too much friendly fire, and still be gameable. The Captain and Security have additional leway in this system and should be duly resented for it. Traitors are encouraged to exploit this system to the fullest. 
+    
     "Innocent"
+    
       - Everyone on the ship starts out innocent.
       - Harming or arresting an innocent person counts as a Role Foul.
-    "Sus"
-      - Anyone can declare another person "Sus" at any time. This involves stating who and what they did in radio 0000 voice.. This step must be completed fully before the person is considered Sus, otherwise they are still considered innocent and any action against them is grounds for a Role Foul. No radio = no ability to declare someone Sus.
-      - Anyone directly involved in the death or knocking unconscious of a Sus person recieves a Role Foul.
-      - Once a person is Sus, they can be ragdolled, handcuffed, and searched on the spot. The crew has 1 minute to do this, after which the person is no longer considered Sus. 
-      - The Captain and Security Officers can each arrest and lock one Sus person at a time inside a room for up to 5 minutes while the ship crew undertakes a longer search or investigation. They must remain in the room with the person for the duration. This can be done once per arrester per person per round (You could lock up someone twice, but a different person would have to do it each time).
+    
+    "Nusiance"
+    
+     Becoming a Nusiance:
+      - Anyone can declare another person "Nusiance" at any time. This involves stating who and what they did in radio 0000. This step must be completed fully before the person is considered Nusiance, otherwise they are still considered innocent and any action against them is grounds for a Role Foul. No radio = no ability to declare someone Nusiance. This can be done via chat but requires someone to notice and repeat it.
+      
+     Actions against Nusiance Players:
+      - Once a person is Nusiance, they can be ragdolled, handcuffed, and searched on the spot, after which they are no longer considered Nusiance. 
+      - Anyone directly involved in the death or knocking unconscious of a Nusiance person recieves a Role Foul.
+      - The Captain and Security Officers can each arrest and lock one Nusiance person at a time inside a room for up to 5 minutes while the ship crew undertakes a longer search or investigation. They must remain in the room with the person for the duration. This can be done once per arrester per person per round (You could lock up someone twice, but a different person would have to do it each time). Imprisoning a Nusiance for over 5 minutes or arresting someone twice per round is a Role Foul.
+      
+      Losing Nusiance Status:
+      - The Nusiance can agree to submit to a search in a public place on the sub on radio 0000. After this, if they remain in place for 30 seconds, they lose nusiance status. If they move from the spot they said they would wait, they are automatically upgraded to hostile. 
+      - Once searched or imprisoned for up to 5 minutes by a Security Officer or the Captain, Nusiance status is automatically lost.
+    
     "Hostile"
-      - If a person declared Sus doesn't cooperate, they can be declared hostile. Declaring someone hostile requires stating who they are and what they did in radio 0000 voice.
-      - Declaring someone hostile requires another person seconding it on radio 0000 voice (unless there are 3 or fewer people left).
-      - Once per round, the Captain can unilaterally declare someone Hostile.
-      - Crewmembers can take agressive action against Hostile players up to knocking them out. The exception to this is self-defense: if a normal crewmember is actively being attacked, then they can fight back however they like.
-      - If the crew unanimously votes for it, they can make a Hostile player KOS.
-      - Once per round, a Hostile player may surrender by announcing it on radio 0000 voice and dropping limp to the ground. They are then considered Sus and must remain limp until they are restrained. False surrenders are allowed but make the false surrenderer automatically and permanently KOS.
+      
+      Becoming Hostile:
+      - If a person declared Nusiance runs from or resist someone attempting to detain them, they can be declared Hostile by a player. Declaring someone Hostile requires stating who they are and what they did in radio 0000 voice, and another person seconding it (unless there are 3 or fewer people left)
+      - Once per round, the Captain and Security Officers can each unilaterally declare a Nusiance person Hostile.
+      
+      Actions against Hostile Players:
+      - All Crewmembers can take agressive action against Hostile players up to but not including killing them. The exception to this is self-defense: if a normal crewmember is actively being attacked by a Hostile player, then they can fight back however they like. However, if they kill their Hostile attacker, then they too are automatically considered Hostile and should probably immediately plead their case.
+      - The crew can vote to make a Hostile player KOS. If condemning evidence is found, this is the mechanism by which a Traitor can be executed.
+
+      Losing Hostile Status:
+      - If a Hostile player is able to successfully plead their case, they can be downgraded to Innocent by a majority crew vote.
+      - A Hostile player may surrender by announcing it on radio 0000 voice and dropping limp to the ground. They are then considered Nusiance and must remain limp until they are restrained. False surrenders are allowed but make the false surrenderer automatically and permanently KOS.
+      - If a player is declared KOS they can request to instead be permabrigged without a radio. If they escape the permabrig it is treated like a false surrender - automatically and permanently setting them to KOS. If circumstances prove their innocence, however, they can be released as Innocent with a crew vote. The permabrigged player's health is the responsibility of the crew - if they die in the brig of preventable causes, they whole crew recieves a Role Foul.
+      - "Trial By Combat" - Two hostile players can mutually agree to a naked 1v1 melee fight (Captain determines weapons, must be the same for both participants). The winner automatically becomes Innocent. After recieving medical treatment, the loser is exiled from the ship for the remainder of the round under pain of KOS. The loser can take any personal items they were carrying with them before the Trial (Captain's judgement).
+
 
 Basic profession traitor roles (maybe like 50% odds each time?)
   Traitor Assistant - "Prankster" (perhaps other classes also have a small chance of getting this role)
